@@ -7,11 +7,19 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "ios:simulator": "react-native run-ios --udid 8B8BD824-B115-4565-ADD0-922A9A0C0474"
   },
   "dependencies": {
+    "@react-native-masked-view/masked-view": "^0.3.2",
+    "@react-navigation/native": "^7.0.14",
+    "@react-navigation/stack": "^7.1.1",
+    "axios": "^1.7.9",
     "react": "18.3.1",
-    "react-native": "0.76.5"
+    "react-native": "^0.76.5",
+    "react-native-gesture-handler": "^2.21.2",
+    "react-native-safe-area-context": "^5.0.0",
+    "react-native-screens": "^4.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
